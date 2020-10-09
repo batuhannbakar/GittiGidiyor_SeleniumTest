@@ -62,9 +62,9 @@ public class BaseTestKeyword extends BaseTest {
         Thread(2000);
 
         clickByClassName("action-text");
-        Thread(7600);
+        Thread(3600);
         clickByClassName("header-cart-hidden-link");
-        Thread(7600);
+        Thread(3600);
 
     }
 
@@ -86,7 +86,7 @@ public class BaseTestKeyword extends BaseTest {
         clickById("gg-login-enter");
         clickByText("Düzenle");
         driver.findElement(By.name("address")).clear();
-        Thread(5000);
+        Thread(4000);
         sendByXpath("//*[@name='address']", address);
         clickById("AddressSave");
     }
