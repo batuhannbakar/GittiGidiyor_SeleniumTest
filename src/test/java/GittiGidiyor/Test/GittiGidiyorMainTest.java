@@ -44,7 +44,7 @@ public class GittiGidiyorMainTest extends BaseTestKeyword {
         Login();
         Thread(3500);
 
-        AddressChange("141414A", "(ADRES DEĞİŞTaaİ )İZMİR PINARLAR SOKAK D.5 CÖMERTKENT SİTESİ");
+        AddressChange("141414A", "(ADRES DEĞİŞTİ )İZMİR PINARLAR SOKAK D.5 CÖMERTKENT SİTESİ");
         Thread(2500);
         Assert.assertTrue(driver.getPageSource().contains("Tebrikler. Adres güncelleme işleminiz başarıyla tamamlandı."));
 
